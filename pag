@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>GTA V</title>
+   
+    <style>
+        /* Estilo geral da página */
+        body {
+            margin: 150px;
+            padding: 10px; 
+            height: 100vh;
+            background-color: #db8515de;
+            position: relative;
+        }
+
+        /* Imagens nos cantos */
+        .top-left, .top-right, .bottom-left, .bottom-right {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+        }
+
+        .top-left { 
+            top: 100px;
+            left: 100px;
+        }
+
+        .top-right {
+            top: 100px;
+            right: 100px;
+        }
+
+        .bottom-left {
+            bottom: 100px;
+            left: 100px;
+        }
+
+        .bottom-right {
+            bottom: 100px;
+            right: 100px;
+        }
+
+        /* Estilo para as imagens */
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* As imagens serão cortadas para cobrir totalmente o espaço */
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Grand-Theft-Auto-V</h1>
+    </center>
+    
+    <!-- Imagens nos cantos -->
+    <div class="top-left">
+        <img src="https://viciados.net/wp-content/uploads/2024/07/GTA-5-Grand-Theft-Auto-V-Rockstar-Games-2025-1200x675.webp" alt="Imagem 1">
+    </div>
+
+    <div class="top-right">
+        <img src="https://playtech.co.nz/cdn/shop/files/gta-cover.jpg?v=1719357934" alt="Imagem 2">
+    </div>
+
+    <div class="bottom-left">
+        <img src="https://img.ibxk.com.br/2024/04/26/26080324561002.jpg?ims=704x" alt="Imagem 3">
+    </div>
+
+    <div class="bottom-right">
+        <img src="https://i.blogs.es/f6e380/gtav_gen9_mft_webstore_hero_3840x2160_deliv/500_333.jpeg" alt="Imagem 4">
+    </div>
+
+</body>
+</html>
